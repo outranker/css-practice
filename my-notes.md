@@ -11,3 +11,35 @@ these are the usual suspects. new one i learned
 is fill area - area that gets filled with background image/color
 final width and heigh of the element includes
 border, padding and content width/height
+
+## 39. CSS Theory #4: Types of Boxes
+
+both display: block and display: inline has their problems. so just use display: inline-block.
+one problem that comes to mind quickly is that margin top and bottom doesn't work for inline elements
+
+## 53. Flexbox terminology
+
+we got main axis. we also got cross axis. main axis is the main one, while cross axis is the secondary one.
+
+## 54. Spacing and Aligning items
+
+justify-content aligns items across the main axis. by default that means horizontally
+align-items aligns items across the cross axis. by default that means vertically
+we have align-items which aligns all items. if we want to align
+one specific item we can use align-self on that child element. the property values are the same.
+we can also use order property on child element to change the
+order that they are in. by default all the child elements have
+value of 0 for order. if we assign a value less than 0 to one
+child element, it gets in the first place. if we assign greater than 0 it changes its position
+to the last place.
+
+## 55. The flex property
+
+flex property is a shorthand for flex-grow, flex-shrink and flex-basis. they work on flex items
+not on flex container. also shorthands can be used individually
+default values:
+flex-grow: 0
+flex-shrink: 1
+flex-basis: auto
+
+flex: flex-grow(0) flex-shrink(1) flex-basis(auto);
