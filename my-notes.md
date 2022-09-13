@@ -43,3 +43,10 @@ flex-shrink: 1
 flex-basis: auto
 
 flex: flex-grow(0) flex-shrink(1) flex-basis(auto);
+
+## WEB DESIGN RULES
+
+## 68. web design ingredients and personalities
+
+We can all create good looking websites just by following design rules. For that we don't need to be an artist or creative. All we need to do is to follow those rules and guidelines and follow some system!.
+What are INGREDIENTS? they are parts of rules that focus on specific things in web design layout that helps for the design to be considered as good. there are 10 ingredients accoriding to Jonas and each of them has rules we need to follow
