@@ -50,3 +50,70 @@ flex: flex-grow(0) flex-shrink(1) flex-basis(auto);
 
 We can all create good looking websites just by following design rules. For that we don't need to be an artist or creative. All we need to do is to follow those rules and guidelines and follow some system!.
 What are INGREDIENTS? they are parts of rules that focus on specific things in web design layout that helps for the design to be considered as good. there are 10 ingredients accoriding to Jonas and each of them has rules we need to follow
+Typography
+Colors
+Images and Illustrations
+Icons
+Shadows
+Border-radius
+Whitespace
+Visual Hierarchy
+User Experience
+Components and Layouts
+
+how we decide how to approach these ingredients when designing a website. answer is it depends on the website personality!
+
+we also have [multiple personalities](./assets/website-personalities.png) for a website. depending on the purpose of the website we can lean towards the design rules that matches the one of the personalities.
+
+## 69. Typography
+
+Serif and Sans-serif
+Serif. creates traditional and classic look and feel. conveys trustworthiness. good for long text. serif is something that sticks out of the letters such T and or X. if they have small lines sticking out then it's serif. it can be used article or online magazine
+
+Sans-serif. modern look and feel. clean and simple. easier to choose for beginners.
+
+[Rules for typography](./assets/01.typography.png).
+TYPEFACES
+
+1. Use only good and popular typefaces and play it safe. ex: Inter, Open Sans, Roboto, Montserrat, Work Sans, Lato (sans-serif)
+   ex: Merriweather, Aleo, Playfair Display, Cormorant, Cardo, Lora (serif)
+2. limit typefaces to 2. Don't use too many. it will look like ameteur. better just use one
+3. choose the right typeface for website. its personality will lead you to the right typeface. decide between serif and sans-serif. experiment with all the famous and most used typefaces
+   FONT SIZES AND WEIGHTS
+4. when choosing font-sizes, limit choices. Use a 'type scale' tool or other pre-defined range. ex: Miner Third?
+5. use a font size between 16px and 32px for 'normal' text
+6. for long text (like a blog post or article), try 20px or bigger
+7. for headlines, go big (50px+) and boldness of 600+, depenging on personality
+8. for any font weight, don't use under 400. below 400 is too light. 400 is regular
+   READING EXPERIENCE
+9. it's better to use less than 75 characters per line to make it easier to read. if it's too many characters it's hard to changing lines while reading
+10. for normal-sized text, use a line height between 1.5 and 2. for big text, go below 1.5. the rule is that if text font-size is small then it's line height should be larger than normal? and if text font-size is big then it's line height should be smaller than normal?
+11. decrease letter spacing in headlines, if it looks unnatural!
+12. experiment with all caps for short titles. make them small and bold and increase letter-spacing
+13. usually, don't justify text
+14. don't center long text blocks. small blocks are fine
+
+## 70. implement typography for the website
+
+we chose minimalist and simple website personality. we use sans-serif for clean and modern look. finding Inter sans-serif from google fonts
+
+## 71. colors
+
+CHOOSE THE RIGHT COLOR
+
+1. make the main color match your website's personality: colors conver meaning
+2. use a good color tone! don't choose a random tone or css named colors. resources: open color, tailwindcss colors, flat ui colors 2.
+   ESTABLISH THE RIGHT COLOR SYSTEM
+3. You need at least two types of colors in your color palette: a main color and a grey color
+4. With more experience, you can add more colors: accent (secondary) colors (use a tool). (resource: palleton.com or coolors)
+5. For diversity, create lighter(tints) and darker(shades) “versions” (resource: tints and shades)
+   HOW AND WHEN TO USE COLORS
+6. Use your main color to draw attention to the most important elements on
+   the page
+7. Use colors to add interesting accents or make entire components or sections stand out
+8. You can try to use your color strategically in images and illustrations
+   COLORS AND TYPOGRAPHY
+9. On dark colored backgrounds, try to use a tint of the background (“lighter
+   version”) for text
+10. Text should usually not be completely black. Lighten if up it looks heavy and uninviting
+11. Don’t make text too light! Use a tool to check contrast between text and background colors. contrast ratio needs to be at least 4.5:1 for normal text and 3:1 for large text(18px+)
