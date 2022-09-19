@@ -144,3 +144,21 @@ USE GOOD IMAGES
     on high res screens, scale factor is 2x or even 3x, on 'normal' screens it's just 1x (1 physical pixel = 1 design pixel)
 11. compress images for a lower file size and better performance. resources: squoosh
 12. when using multiple images side-by-side, make sure they have the exact same dimensions
+
+## 74. icons
+
+USE GOOD ICONS
+
+1. use a good icon pack, there are tons of free and paid icons packs. resources: phosphor icons, ionicons, icons8
+2. use only one icon pack. don't mix icons from different icon packs
+3. use SVG icons or icon fonts becuase they scale indefinitely. don't use bitmap image formats ie jpg and png
+4. adjust to website personality. roundness, weight and filled/outlined depend on typography
+   WHEN TO USE ICONS
+5. use icons to provide visial assistance to text
+6. use icons for product feature blocks
+7. use icons associated with actions, and label them (unless no space or icon is 100% clear)
+8. use icons as bullet points
+   USE ICONS WELL
+9. To keep icons neutral, use same color as text. To draw more attention, use different color
+10. Don’t confuse your users: icons need to make sense and fit the text or action!
+11. Don't make icons larger than what they were designed for. If needed, enclose them in a shape
