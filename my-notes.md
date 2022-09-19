@@ -117,3 +117,30 @@ CHOOSE THE RIGHT COLOR
    version”) for text
 10. Text should usually not be completely black. Lighten if up it looks heavy and uninviting
 11. Don’t make text too light! Use a tool to check contrast between text and background colors. contrast ratio needs to be at least 4.5:1 for normal text and 3:1 for large text(18px+)
+
+## 72.
+
+when we have anchor tags and we want to style them, we need to follow this:
+first, we use these 2 selectors: `.my-btn:link, .my-btn:visited {...}`
+after that we use these 2 selectors: `.my-btn:hover, .my-btn:active {...}`
+
+## 73. photos
+
+USE GOOD IMAGES
+
+1. Different types of images: product photos, storytelling photos, illustrations, patterns
+2. Use images to support your website’s message and story. So only use relevant images!
+3. Prefer original images. If not possible, use original-looking stock images (not generic ones!). source: unsplash pexels, drawkit, undraw
+   USE IMAGES WELL
+4. try to show real people to trigger user's emotions
+5. if nexessary, crop images, to fit your pages
+6. Experiment combining photos, illustrations and patterns
+   HOW TO HANDLE TEXT ON IMAGES
+7. Method #1: Darker or brighten image (completely or partially, using a gradient)
+8. Method #2: Position text into neutral image area
+9. Method #3: Put text in a box
+   SOME TECHNICAL DETAILS
+10. to account for high-res screens, make image dimensions 2x as big as their displayed size. what size means is that imagine we need a picture for our page and it's place takes 300 x 450 px. when we have an image of exactly this size and normal device, there is no problem. but if we have very high res screen device to make the image look crisp it's better if we provided an image with twice the pixel ratio of the place it takes. in our case it's 600 x 900 px. it's called _Scale factor_: Actual pixels the screen contains / Pixels represented on screen
+    on high res screens, scale factor is 2x or even 3x, on 'normal' screens it's just 1x (1 physical pixel = 1 design pixel)
+11. compress images for a lower file size and better performance. resources: squoosh
+12. when using multiple images side-by-side, make sure they have the exact same dimensions
