@@ -187,3 +187,11 @@ USE SHADOWS WELL
 6. Use large shadows for elements that should really float above the interface. modals, navigations and popup windows
 7. Experiment with changing shadows on mouse interaction (click and hover). on hover show shadow or icrease shadow and on click decrease shadow to simulate being pushed to the ground or to the interface
 8. Bonus: Experiment with glows (colored shadows). ex: for a button of particular color, if we give a shadow of that same color it gives an effect of glowing
+
+# 77. implement box shadow
+
+for container elements we use `box-shadow` and for text we use `text-shadow`. we might use shadow for text when it comes on top of some image
+
+LOOK UP box-shadow on MDN for its properties
+
+# 78. border-radius
