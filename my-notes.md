@@ -149,7 +149,7 @@ USE GOOD IMAGES
 
 USE GOOD ICONS
 
-1. use a good icon pack, there are tons of free and paid icons packs. resources: phosphor icons, ionicons, icons8
+1. use a good icon pack, there are tons of free and paid icons packs. resources: phosphor icons, ionicons, icons8, heroicons
 2. use only one icon pack. don't mix icons from different icon packs
 3. use SVG icons or icon fonts becuase they scale indefinitely. don't use bitmap image formats ie jpg and png
 4. adjust to website personality. roundness, weight and filled/outlined depend on typography
@@ -162,3 +162,28 @@ USE GOOD ICONS
 9. To keep icons neutral, use same color as text. To draw more attention, use different color
 10. Don’t confuse your users: icons need to make sense and fit the text or action!
 11. Don't make icons larger than what they were designed for. If needed, enclose them in a shape
+
+## 75. implement icons
+
+we used some svg icons and to change its colors we used `stroke` css attribute for outline icons. for solid icons we can use `fill` attribute to give color to the icon
+
+## 76. shadows
+
+shadows can help users identify relationships between items in the web page or they can be used to add visual details to items
+some history first: around 2010, all interfaces had skeuomophic design -> lots of shades and glossy effects and realistic effects. after ios 8 flat design (minimal) rules but caused some usability problems. after that flat design 2.0 came to existence which gave items some shadows and depth. which is still minimal but brings back shadows and depth for better usability.
+shadows bring out or stimulate depth for an item in user interface. more shadow an item has the further away from the iterface the element looks or in other words shadows allow us to add 3 dimension to our element
+
+shadows can be used on boxes and text
+
+USE SHADOWS WELL
+
+1. You don’t have to use shadows! Only use them if it makes sense for the
+   website personality
+2. Use shadows in small doses: don’t add shadows to every element!
+3. Go light on shadows, don’t make them too dark!
+   USE SHADOWS IN THE RIGHT SITUATIONS
+4. Use small shadows for smaller elements that should stand out (to draw attention). such as input elements. we might need the user pay attention to input form or maybe we use shadows for images
+5. Use medium-sized shadows for larger areas that should stand out a bit more. such as big banner or cards
+6. Use large shadows for elements that should really float above the interface. modals, navigations and popup windows
+7. Experiment with changing shadows on mouse interaction (click and hover). on hover show shadow or icrease shadow and on click decrease shadow to simulate being pushed to the ground or to the interface
+8. Bonus: Experiment with glows (colored shadows). ex: for a button of particular color, if we give a shadow of that same color it gives an effect of glowing
