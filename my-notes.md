@@ -195,3 +195,27 @@ for container elements we use `box-shadow` and for text we use `text-shadow`. we
 LOOK UP box-shadow on MDN for its properties
 
 # 78. border-radius
+
+USE BORDER-RADIUS WELL
+
+1. border-radius increase playfulness and fun of the design and make it less serious
+2. pay attention to the typefaces we are using. they might have some level of roundness. we need to make sure that border-radius matches that roundness
+3. buttons, images, around icons, standout sections are conadidates for border-radius
+
+# 80. whitespace
+
+the right amount of whitespace makes designs look clean, modern and polished
+it communicates how different pieces of inf are related to one another
+it implies invisible relationships between the elements of a layout
+
+WHERE TO USE WHITESPACE
+
+1. use tons of whitespace between sections
+2. use a lot of whitespace between groups of elements but not as much as sections
+3. use whitespace between smaller elements
+4. inside groups of elements try to use whitespace instead of lines. using lines is old skul
+   HOW MUCH WHITESPACE
+5. the more some elements belong together, the closer they should be. meaning if they belong to the same group they should have smaller whitespace than the whitespace that is used to another group of elements. this is called `the law of proximity`.
+6. start with a lot of whitespace and then remove whitespace from there until it looks nice. too much whitespace looks detached, too little looks detached
+7. match other design choices. if big text or big icons then more whitespace is needed
+8. try a hard rule such as using multiples of `16px` for all spacing: 2px, 4px, 8px, 12px, 16px, 24px, 32 px, 48px, 64px ...
