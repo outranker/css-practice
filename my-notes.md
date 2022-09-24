@@ -218,4 +218,23 @@ WHERE TO USE WHITESPACE
 5. the more some elements belong together, the closer they should be. meaning if they belong to the same group they should have smaller whitespace than the whitespace that is used to another group of elements. this is called `the law of proximity`.
 6. start with a lot of whitespace and then remove whitespace from there until it looks nice. too much whitespace looks detached, too little looks detached
 7. match other design choices. if big text or big icons then more whitespace is needed
-8. try a hard rule such as using multiples of `16px` for all spacing: 2px, 4px, 8px, 12px, 16px, 24px, 32 px, 48px, 64px ...
+8. try a hard rule such as using multiples of `16px` for all spacing: 2 px, 4px, 8px, 12px, 16px, 24px, 32 px, 48px, 64px ...
+
+## 81. visual hierarchy
+
+visual hierarchy is about establishin gwhich elements of a design are the most important ones. it's about drawing attention to these most important elements. it's also defining a path for users to guide them through the page. combination of position, size, colors, spacing, borders and shadows are mainly used to establish a meaningful visual hierarchy between elements/components
+
+VISUAL HIERARCHY FUNDAMENTALS
+
+1. position important elements to closer to the top of the page, where they get more attention. let's not get confused here. it doesn't mean the important element should be at the top but it could also be closer to the top and the next important element doesn't have to be the next thing but being closer to the first one works okay
+2. images need to be used mindfully since they draw attention. the larger they are more attention they get
+3. whitespace creates separation, so use whitespace strategically to emphasize elements
+
+VISUAL HIERARCHY FOR TEXT ELEMENTS
+
+4. use font size, font weight, color and whitespace to convey importance for text elements
+5. what items should be emphasized? titles, sub-titles, links, buttons, data points, icons. texts can also be de-emphasized such as lables or secondary or additional information
+   VISUAL HIERARCHY BETWEEN COMPONENTS
+6. emphasize an important component using background color, shadow or border or multiple of them
+7. try emphasizing some component A over component B by de- emphasizing component B
+8. What components to emphasize? Testimonials, call-to-action sections, highlight sections, preview cards, forms, pricing tables, important rows/columns in tables, etc.
