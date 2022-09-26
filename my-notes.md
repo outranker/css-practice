@@ -118,7 +118,7 @@ CHOOSE THE RIGHT COLOR
 10. Text should usually not be completely black. Lighten if up it looks heavy and uninviting
 11. Don’t make text too light! Use a tool to check contrast between text and background colors. contrast ratio needs to be at least 4.5:1 for normal text and 3:1 for large text(18px+)
 
-## 72.
+## 72
 
 when we have anchor tags and we want to style them, we need to follow this:
 first, we use these 2 selectors: `.my-btn:link, .my-btn:visited {...}`
@@ -260,3 +260,14 @@ UX is how it looks as well as how it works
 ## 85. steal like an artist
 
 resources for inspiration: land-book.com onepagelove.com/inspiration awwwards.com screenlane.com
+
+## components and layout patterns
+
+## 87. elements and components
+
+FROM ELEMENTS TO WEBPAGE
+a very great point by the teacher. when i start building a website for my project and always start with white canvas and don't know what to do. his advice in this case is to never panic and just start with simple and small things and try to group some elements such as buttons titles paragraphs into components and try to create multiple components and try to group them as well. then you will have some rough idea about how to design it and work on it further. okay no so much like this <- kkkk. so we try to create components with elements and create a layout with these components. and the catch is don't just try to create a layout on your own instead use existing famous layouts which are proven to be good designs. and in the end assemble he components into layouts and compose your webpage
+
+1. use common elements and components to convey your website's information
+2. combine components into layouts using common layout patterns
+3. assemble different layout areas into a complete, final page
