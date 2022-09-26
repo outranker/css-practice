@@ -238,3 +238,25 @@ VISUAL HIERARCHY FOR TEXT ELEMENTS
 6. emphasize an important component using background color, shadow or border or multiple of them
 7. try emphasizing some component A over component B by de- emphasizing component B
 8. What components to emphasize? Testimonials, call-to-action sections, highlight sections, preview cards, forms, pricing tables, important rows/columns in tables, etc.
+
+## 83. User Experince (UX)
+
+UX RULES FOR USABILITY
+UX is how it looks as well as how it works
+
+1. don't design complicated layouts. don't reinvent the wheel. use patterns that users know
+2. make your call-to-action the most prominent element and make the descriptive. we are talking about the button here!
+3. use blue text and underlined text only for links
+4. animations should have a purpose and be fast: between 200 and 500ms
+5. in forms, align labels and fields in a single vertical line, to make the form easier to scan
+6. offer users good feedback for all actions: form errors, form success, etc [web apps]
+7. place action buttons where they will create an effect (law of locality) [web apps]
+   UX RULES FOR WEBSITE CONTENT
+8. ues a descriptive keyword focused headline on your main page. don't be vague or fancy
+9. only include relevant information, efficiently! cut out fluff and make the content 100% clear
+10. use simple words! avoid technical jargon and smart-sounding words
+11. break up long text with sub-headings, images, block quotes, bullet points, etc
+
+## 85. steal like an artist
+
+resources for inspiration: land-book.com onepagelove.com/inspiration awwwards.com screenlane.com
