@@ -271,3 +271,7 @@ a very great point by the teacher. when i start building a website for my projec
 1. use common elements and components to convey your website's information
 2. combine components into layouts using common layout patterns
 3. assemble different layout areas into a complete, final page
+
+## 99. building web application layout pt 2
+
+we have flex container and many childs. we want them scrollable and not overflow the viewport. naturally we use `overflow: scroll` on container and this causes child elements to shrink. remember that flex-shrink for child elements is set 1 which means if necessary they are shrinkable. to avoid that we set flex-shrink to 0 on child elements and they retrieve any lost css that we gave
