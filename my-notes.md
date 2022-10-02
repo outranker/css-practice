@@ -275,3 +275,37 @@ a very great point by the teacher. when i start building a website for my projec
 ## 99. building web application layout pt 2
 
 we have flex container and many childs. we want them scrollable and not overflow the viewport. naturally we use `overflow: scroll` on container and this causes child elements to shrink. remember that flex-shrink for child elements is set 1 which means if necessary they are shrinkable. to avoid that we set flex-shrink to 0 on child elements and they retrieve any lost css that we gave
+
+## OMNIFOOD project
+
+## 105. Responsive Design Principles
+
+WHAT IS RESPONSIVE DESIGN
+
+- design technique to make a webpage adjust its layout and visual style to any possible screen size (window or viewport size)
+- Inpractice,thismeansthatresponsivedesignmakeswebsitesusableon all devices, such as desktop computers, tablets, and mobile phones.
+- It’s a set of practices, not a separate technology. It’s all just CSS!
+
+RESPONSIVE DESIGN INGREDIENTS
+[Rules for typography](./assets/resp-des-ingr.png).
+
+1. FLUID LAYOUTS
+2. RESPONSIVE UNITS
+3. FLEXIBLE IMAGES
+4. MEDIA QUERIES
+
+## 106. how rem and max-width work?
+
+`max-width` means if parent container width is bigger than max-width then the child element (which has max-width given) cannot get bigger than the max-width. that means it will not grow. if container width is smaller than child element's max-width then child element gets 100% of the width of the parent container. it will fill the width of parent container element and it will stop filling/increasing its width once parent elements gets bigger than max-width of the child element
+
+what does **rem** mean? rem means _root element's font size_. what element is considered root element? it's html element that is root element of the document. if we don't define font-size on this `html` element then 1 rem is equal to the default browser font-size which is always 16px unless the user does change it.
+changing the font-size affects all defined rem units. it may also be handy when we need to change all the sizes at once. but due to accessibility purposes we don't change it. but instead we can set root element font-size to a percentage unit.
+there is a formula for coming up with a percentage that we want root element to be. if we want root element to be 10px we can come up with percentage value by dividing 10 by 16. so the formula is:
+
+```
+T / D = P
+```
+
+- T = target px value
+- D = root element default value - 16px
+- P = percentage value
