@@ -309,3 +309,11 @@ T / D = P
 - T = target px value
 - D = root element default value - 16px
 - P = percentage value
+
+## 113. Building how it works p1
+
+\*\* images should be first thing we need to style becuase they don't automatically scale up or down like text. that's why we need to give them 100% width to fit into parent container
+
+## 113. Building how it works p2
+
+we are not allowed to add child elements to `img` tag. which should be obvious when you think about it. it's a self closing tag. so this means we cannot add `::before` pseudo element to `img` tag
