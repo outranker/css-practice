@@ -146,7 +146,7 @@ body {
   border-radius: 9px;
 
   /* Put transition on original "state" */
-  transition: background-color 0.3s;
+  transition: all 1.3s;
 }
 
 .btn--full:link,
@@ -176,4 +176,8 @@ body {
 
 .margin-right-sm {
   margin-right: 1.6rem !important;
+}
+
+strong {
+  font-weight: 500;
 }
