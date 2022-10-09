@@ -30,6 +30,7 @@
     - Shades: #cf711f
     - Accents:
     - Greys:
+    #6f6f6f (lightest grey allowed on #fdf2e9)
     #555
     #333
 
@@ -80,7 +81,21 @@ body {
   display: grid;
   row-gap: 9.6rem;
   column-gap: 6.4rem;
+
+  /* REPLACED WITH :NOT(:LAST-CHILD)  */
+  /* margin-bottom: 9.6rem; */
 }
+
+/* REPLACED WITH :NOT(:LAST-CHILD)  */
+.grid:last-child {
+  border: 1px solid red;
+  margin: 20px;
+  /* margin-bottom: 0; */
+}
+
+/* .grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+} */
 
 .grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
@@ -186,6 +201,26 @@ body {
 .link:active {
   color: #cf711f;
   border-bottom: 1px solid transparent;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.list-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #e67e22;
 }
 
 /* HELPER/SETTINGS CLASSES*/
