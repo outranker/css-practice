@@ -317,3 +317,7 @@ T / D = P
 ## 113. Building how it works p2
 
 we are not allowed to add child elements to `img` tag. which should be obvious when you think about it. it's a self closing tag. so this means we cannot add `::before` pseudo element to `img` tag
+
+## 126. Building cta section
+
+in our css if we select buttons only with :link and :visited pseudo selectors we need to make sure that the button we are styling has href attribute. otherwise css selector doesn't select the button with no href attribute
