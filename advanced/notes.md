@@ -32,4 +32,37 @@ new css property learned. `animation-fill-mode`. the value for this property is 
 
 **2. Maintainable and scalable code** is more for Dev than end user. it includes clean code, easy-to understand code, code growth, reusable code, how to organise files, how to name classes, how to structure html aspects
 
-**2. Web Performance** means making the website to load faster and smaller size. to achieve this we can also do below things: make fewer http requests, less code, compressing code, using css preprocessor, fewer images or smaller size images, compressing images
+**3. Web Performance** means making the website to load faster and smaller size. to achieve this we can also do below things: make fewer http requests, less code, compressing code, using css preprocessor, fewer images or smaller size images, compressing images
+
+## 14. how css is parsed. cascading and specificity
+
+cascade is process of combining different stylesheets and resolving conflicts between different css rules and declarations, when more than one rule applies to a certain element
+
+well this is new to me. there are 3 types of css. author css is the one that developers write. there is also the one called user css which is when user changes default font size on the browser. and the last one is browser (user agent) css which is that ambigious default css that we most of the time just nullify (reset)
+
+so how does css resolve this conflicting css's. to determine the precedence order of the css, these are taken into account => importance (weight) > specificity > source order
+
+### Importance
+
+1. User `!important` declarations
+2. Author `!important` decalations
+3. Author declarations
+4. User declarations
+5. Default browser declarations
+
+### Specificity order from highest to lowest
+
+1. Inline styles - highest specificity
+2. IDs
+3. Classes, pseudo-classes, attribute
+4. Elements, pseudo-elements
+
+when calculating specificity the resulting value that wins is called cascading value
+
+### Source order
+
+when there are css rules with the same specificity, the declaration that comes last on the css file will be used
+
+gotcha: universal selector \* has no specificity value (0, 0, 0, 0)
+
+tip: rely more on specificity than on the order of selectors. that way when you rearrange css code, the specificity stays the same
