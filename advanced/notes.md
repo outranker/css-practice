@@ -66,3 +66,17 @@ when there are css rules with the same specificity, the declaration that comes l
 gotcha: universal selector \* has no specificity value (0, 0, 0, 0)
 
 tip: rely more on specificity than on the order of selectors. that way when you rearrange css code, the specificity stays the same
+
+## 16. how css is parsed. value processing
+
+- in css every unit is converted to pixels. there are many measuring units such as rem, em, percentages, viewport and pixels. if we use anything other than pixels it will eventually be computed to pixels. however there are a set of steps and rules for processing different units. so this chapter is about that
+
+starting from the declared value up until final actual value there are 6 steps that css goes through
+
+let's try to dissect each step using this image:![image](./notes-assets/how-css-values-processed.png)
+
+1. **Declared value** is simply the code that we wrote. in the image there are 2 instances where css style with measure is given. one is in percentage and the other is in pixels
+2. **Cascaded value** is the one chosen after cascading rules are applied. in this case it's the percentage value that is chosen
+3. **Specified value** is a default value of certain css property. since we already have value in our example this step is simply skipped.
+4. **Computed value** is the step which converts relative values such as auto, orange etc. is computed to absolute values. in our example since what we got is not that type of value so we just skip this process as well
+5. **Used value**
