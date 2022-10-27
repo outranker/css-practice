@@ -79,4 +79,25 @@ let's try to dissect each step using this image:![image](./notes-assets/how-css-
 2. **Cascaded value** is the one chosen after cascading rules are applied. in this case it's the percentage value that is chosen
 3. **Specified value** is a default value of certain css property. since we already have value in our example this step is simply skipped.
 4. **Computed value** is the step which converts relative values such as auto, orange etc. is computed to absolute values. in our example since what we got is not that type of value so we just skip this process as well
-5. **Used value**
+5. **Used value** is the final calculation result value in a unit that browser uses which is pixels. this value is derived from all those steps above and calculated to pixels in our case it was percentage and now it's 184.8px. this happens in rendering phase
+6. **Actual value** is the actual value to be used. in our case the value is rounded to the value that browser can use
+
+More on the number 3 which is Specified value. All elements attributes have their initial value. Even if we don't specify them their values are given based on that specified value. it's usually 0
+
+_rem_ and _em_ are not absolute values but rather relative values. that's why they are processed in step 4
+
+- **to convert units from relative to absolute** css performs a set of steps. that's step 4 and 5 from above steps
+
+let's try to dissect just like we did above ![image2](./notes-assets/how-units-converted-to-absolute.png)
+
+one thing to note is that units are things like percentages, em, rem, vh and vw. they are all units. they need to be converted to pixels.
+however, they are treated differently based on what they represent. there are two types which are units for font sizes and for length(distance) sizes.
+
+There is difference in percentages used for fonts and lengths. when percentage is used for an element's font size that percentage is derived from parent elements font size. in our case from the image, it's the body and html that is parent for header tag. but when it's for length, it's parent element's width that is used to derive the elements length unit(although there is a catch! it doesn't work for all elements and there exist some exceptions. ex: line-height. the rule for it is the same as percentage used for fonts. it uses parent's font size to derive the value). in our case, .header-child has padding of 10% and that means parent element has width of 1000px which makes padding of 10% equal to 100px. please note that this is for percentage based calcs
+
+em for fonts and em for length also differs. em for fonts uses parent elements font size as a reference while em for lengths uses current element's font size as a reference. I know that's kinda weird when length based em references current element's font size as a reference. there is double excl mark right here.
+rem always uses root element as a reference
+
+vh and vw is simple. 1vh is 1% of the viewport. same for vw
+
+below is the wrap up points for the new things i learned [image3](./notes-assets/key-points-for-units.png)
