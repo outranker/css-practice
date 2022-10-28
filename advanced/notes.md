@@ -101,3 +101,7 @@ rem always uses root element as a reference
 vh and vw is simple. 1vh is 1% of the viewport. same for vw
 
 below is the wrap up points for the new things i learned [image3](./notes-assets/key-points-for-units.png)
+
+## 19. how css renders a website
+
+there are lots of things talked here most of which I already know. but this might need coming back and reviewing it in the future if needed.
