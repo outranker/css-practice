@@ -105,3 +105,18 @@ below is the wrap up points for the new things i learned [image3](./notes-assets
 ## 19. how css renders a website
 
 there are lots of things talked here most of which I already know. but this might need coming back and reviewing it in the future if needed.
+
+## 35. building about section part 1
+
+i learned a new trick which sets the color of text to linear gradient. in order to do that we use background-image of linear gradient which is obvious and set the color attribute to transparent. after that we need to set background-clip to text
+
+```css
+background-image: linear-gradient(
+  to right,
+  $color-primary-light,
+  $color-primary-dark
+);
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+```
