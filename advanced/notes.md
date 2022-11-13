@@ -120,3 +120,12 @@ background-clip: text;
 -webkit-background-clip: text;
 color: transparent;
 ```
+
+## 55. mobile first and desktop first and breakpoints
+
+we max-width and min-width media queries. but what is the difference?
+max-width is used in desktop first approach while min-width is used in mobile first approach. for max-width you start width big number and work your way down such as 1200px => 900px => 600px ... but with min-width you start with small dimension and work your way up like: 600px => 900px => 1200px. max-width of 1200px means less/smaller than 1200px. min-width 1200px means greater than 1200px.
+
+## 56. sass mixins for media queries
+
+for media queries, when use a unit such as 10rem it doesn't equal to 100px because the font-size that we defined for html tag doesn't work for media queries for some reason. that's why we have to calculate rem's/em's to px's by hand. in fact we gonna use ems to avoid some problem that i don't know yet.
