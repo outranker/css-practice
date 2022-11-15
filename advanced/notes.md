@@ -129,3 +129,12 @@ max-width is used in desktop first approach while min-width is used in mobile fi
 ## 56. sass mixins for media queries
 
 for media queries, when use a unit such as 10rem it doesn't equal to 100px because the font-size that we defined for html tag doesn't work for media queries for some reason. that's why we have to calculate rem's/em's to px's by hand. in fact we gonna use ems to avoid some problem that i don't know yet.
+
+## 61. responsive images
+
+there are 3 types of providing responsive images. resolution switching, density switching and art direction.
+
+to perform art direction which is providing different images based on media query (screen size) we need source tag and img tag inside picture tag. source tag and img tag must use srcset attr rather than src. source tag has media attr which accepts media query and based on that query the image defined is used.
+the reason we use srcset instead of src is that we can provide 2 versions of an image so that browser can choose which resolution of the image it uses
+
+with srcset and sizes attrs we can have more control over what to provide but it's too complicated for some reasons. need to investigate later
