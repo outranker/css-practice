@@ -138,3 +138,16 @@ to perform art direction which is providing different images based on media quer
 the reason we use srcset instead of src is that we can provide 2 versions of an image so that browser can choose which resolution of the image it uses
 
 with srcset and sizes attrs we can have more control over what to provide but it's too complicated for some reasons. need to investigate later
+
+## NOTE: leaving out some lectures because it's getting boring
+
+lectures 60 ~ 64 are fast forwarded. need to coma back later hopefully
+
+## 66. wrapping up
+
+things learned in this lecture:
+
+- `::selection` css property. used for styling selected text blocks
+- `media only screen and (max-width: 37.5em) {...}` - this means this only applies to screens ie when this page is printed out it doesn't apply
+- if `<meta name="viewport" ...>` doesn't exist in index.html our media queries don't work at all
+- `only screen and (hover: none)` OR `only screen and (hover: hover)` the first one is for identifying if the screen is touch screen
