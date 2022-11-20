@@ -18,4 +18,9 @@ we got many css attributes for flex container and flex items. most of it I alrea
 
 initial value of `align-items` is `stretch`. `baseline` value aligns the content on the same line. this comes in handy when items are not at the same height.
 
-default value of `order` property is 0. usually
+default value of `order` property is 0. and by default, flex items are laid out in the source order.
+
+`flex-grow` is the ability of an element to grow and we specifiy an integer as a value. defeault value is 0 which means they will take up space as much as the content needs and not any more than that. if we give different numbers to all child elements the space they take up is determined by the ratio of their `flex-grow` value to total sum of all the values.
+`flex-basis` sets the width of a flex item. default value is auto.
+`flex-shrink` default value is 1. which means it will shrink
+`align-content` helps to align the content when we have too much heigh or too much width.
