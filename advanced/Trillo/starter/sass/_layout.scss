@@ -16,6 +16,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  & > * {
+    // border: 1px solid red;
+  }
 }
 
 .content {
@@ -24,7 +28,7 @@
 
 .sidebar {
   background-color: var(--color-grey-dark-1);
-  flex: 0 0 18%;
+  // flex: 0 0 18%;
 }
 
 .hotel-view {
