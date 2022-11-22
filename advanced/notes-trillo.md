@@ -24,3 +24,7 @@ default value of `order` property is 0. and by default, flex items are laid out 
 `flex-basis` sets the width of a flex item. default value is auto.
 `flex-shrink` default value is 1. which means it will shrink
 `align-content` helps to align the content when we have too much heigh or too much width.
+
+## 80. Hotel overview p1
+
+when we have `img` tag we'd better give it display: block to avoid having small space underneath image which happens when we leave an image as an inline-block
