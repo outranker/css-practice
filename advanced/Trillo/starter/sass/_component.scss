@@ -193,3 +193,42 @@
     display: block;
   }
 }
+
+// *******************
+// HOTEL OVERVIEW
+
+.overview {
+  display: flex;
+  justify-content: space-between;
+
+  & > * {
+    border: 1px solid red;
+  }
+
+  &__heading {
+  }
+
+  &__stars {
+    margin-right: auto;
+  }
+
+  &__icon-star,
+  &__icon-location {
+    width: 1.75rem;
+    height: 1.75rem;
+    fill: var(--color-primary);
+  }
+
+  &__location {
+    // flex: 1;
+  }
+
+  &__rating {
+  }
+
+  &__rating-average {
+  }
+
+  &__rating-count {
+  }
+}
