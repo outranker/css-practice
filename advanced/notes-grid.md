@@ -116,3 +116,13 @@ we can use `justify-content` and `align-content` for grid as well. what it does 
 ```css
 grid-auto-flow: row dense;
 ```
+
+## 109. features section 2
+
+when defining columns for a grid we can use `auto-fit` and `minmax()` function to make columns responsive without media queries.
+
+```css
+grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+```
+
+above will try to fit as much columns as needed as well as decrease number of columns if needed. but the downside is all items might be placed to single column if the width is too wide. that's why the parent container width need to be fixed and items' width need to be carefully calculated to match the needed original no of columns
