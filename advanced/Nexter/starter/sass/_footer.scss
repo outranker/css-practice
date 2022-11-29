@@ -1,4 +1,27 @@
 .footer {
   background-color: $color-secondary;
   grid-column: full-start / full-end;
+  padding: 8rem;
+}
+
+.nav {
+  list-style: none;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-gap: 2.5rem;
+
+  &__item {
+  }
+
+  &__link:visited,
+  &__link:link {
+    font-size: 1.4rem;
+    color: #fff;
+    // fotde
+  }
+
+  &__link:active,
+  &__link:hover {
+  }
 }
